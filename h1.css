@@ -355,14 +355,15 @@ html, body {
 
   /* ── Row 2: playback controls ── */
   .player-controls {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 18px;
-    width: 100%;
-    flex: 0 0 auto;
-    margin-bottom: 80px;
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  width: 100%;
+  flex: 0 0 auto;
+  /* CHANGE: Reduce or remove this margin */
+  margin-bottom: 8px; 
+}
 
   /* Hide shuffle & repeat on mobile */
   #shuffle-btn { display: none !important; }
@@ -403,13 +404,15 @@ html, body {
 
   /* ── Row 3: progress bar ── */
   .player-right {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    flex: 0 0 auto;
-    max-width: 100%;
-    gap: 0;
-  }
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  flex: 0 0 auto;
+  max-width: 100%;
+  gap: 0;
+  /* ADD: Ensure this sits nicely at the bottom of the player area */
+  margin-top: 4px;
+}
   .progress-wrap {
     display: flex;
     align-items: center;
