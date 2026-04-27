@@ -327,7 +327,7 @@ html, body {
     width: 100%;
     flex: 0 0 auto;
     min-width: 0;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
   }
   .player-art {
     width: 40px;
@@ -362,7 +362,7 @@ html, body {
   width: 100%;
   flex: 0 0 auto;
   /* CHANGE: Reduce or remove this margin */
-  margin-bottom: 150px; 
+  margin-bottom:200px; 
 }
 
   /* Hide shuffle & repeat on mobile */
