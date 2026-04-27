@@ -362,7 +362,7 @@ html, body {
   width: 100%;
   flex: 0 0 auto;
   /* CHANGE: Reduce or remove this margin */
-  margin-bottom: 8px; 
+  margin-bottom: 80px; 
 }
 
   /* Hide shuffle & repeat on mobile */
